@@ -1,7 +1,7 @@
 Safe-Room Android App
 ==========
 
-Este es el README de mi nueva aplicación Safe-Room.
+Este es el README de nuestra nueva aplicación Safe-Room.
 
 Este fichero se usa de ejemplo para probar si permite subir a este repositorio con los permisos actuales.
 
