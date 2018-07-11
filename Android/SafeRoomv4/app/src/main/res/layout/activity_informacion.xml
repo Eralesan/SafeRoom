@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Informacion">
+
+
+    <TextView
+        android:id="@+id/txtST"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/lblST"
+        android:layout_toEndOf="@+id/lblST" />
+
+    <TextView
+        android:id="@+id/txtMonoxidoVariable"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/txtVacio"
+        android:layout_below="@+id/txtSTVariable"
+        android:text="Monoxido" />
+
+    <TextView
+        android:id="@+id/txtSTVariable"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/txtVacio"
+        android:layout_below="@+id/txtMaximo"
+        android:text="Sensacion Termica" />
+
+    <TextView
+        android:id="@+id/txtMaximo"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/txtMinimo"
+        android:layout_toEndOf="@+id/txtMinimo"
+        android:text="Maximo" />
+
+    <TextView
+        android:id="@+id/txtMinimo"
+        android:layout_width="147dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/txtVacio"
+        android:layout_toEndOf="@+id/txtMonoxidoVariable"
+        android:text="Minimo" />
+
+    <TextView
+        android:id="@+id/txtVacio"
+        android:layout_width="150dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="355dp" />
+
+    <TextView
+        android:id="@+id/lblMonoxido"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/lblST"
+        android:layout_below="@+id/lblHumedad"
+        android:text="Monoxido" />
+
+    <TextView
+        android:id="@+id/txtMonoxido"
+        android:layout_width="254dp"
+        android:layout_height="33dp"
+        android:layout_alignTop="@+id/lblMonoxido"
+        android:layout_toEndOf="@+id/lblST" />
+
+    <TextView
+        android:id="@+id/txtHumedad"
+        android:layout_width="254dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/lblTemperatura"
+        android:layout_toEndOf="@+id/lblST" />
+
+    <TextView
+        android:id="@+id/lblHumedad"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/lblST"
+        android:layout_below="@+id/lblTemperatura"
+        android:text="Humedad :" />
+
+    <TextView
+        android:id="@+id/lblTemperatura"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/lblST"
+        android:layout_below="@+id/lblST"
+        android:text="Temperatura :" />
+
+    <Button
+        android:id="@+id/btnObtenerDatos"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/btnObtenerDatos"
+        android:layout_toEndOf="@+id/btnObtenerDatos"
+        android:text="Comenzar" />
+
+    <TextView
+        android:id="@+id/lblST"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="56dp"
+        android:text="Sensacion Termica" />
+
+    <TextView
+        android:id="@+id/txtTemperatura"
+        android:layout_width="254dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/lblST"
+        android:layout_toEndOf="@+id/lblST" />
+
+    <Button
+        android:id="@+id/btnVentana"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="196dp"
+        android:text="Abrir / Cerrar Ventana" />
+
+    <Button
+        android:id="@+id/btnEncVent"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/btnVentana"
+        android:layout_below="@+id/btnVentana"
+        android:text="Encender Ventilacion" />
+
+    <EditText
+        android:id="@+id/txtSTMax"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/txtMaximo"
+        android:layout_below="@+id/txtMaximo"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txtMonoxidoMax"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/txtMaximo"
+        android:layout_below="@+id/txtSTVariable"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txtMonoxidoMin"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/txtSTVariable"
+        android:layout_toStartOf="@+id/txtMaximo"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/txtSTMin"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/txtMaximo"
+        android:layout_toStartOf="@+id/txtMaximo"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnAsignarValores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtMonoxidoVariable"
+        android:text="Asignar Valores" />
+
+    <Button
+        android:id="@+id/btnEncenderLed"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_alignTop="@+id/btnVentana"
+        android:layout_toEndOf="@+id/btnVentana"
+        android:text="encender led" />
+
+    <Button
+        android:id="@+id/btnActivarAlarma"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/btnVentana"
+        android:layout_toEndOf="@+id/btnEncVent"
+        android:text="Activar alarma" />
+
+    <TextView
+        android:id="@+id/txtAlarma"
+        android:layout_width="328dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/btnObtenerDatos"
+        android:layout_below="@+id/btnEncVent"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+</RelativeLayout>

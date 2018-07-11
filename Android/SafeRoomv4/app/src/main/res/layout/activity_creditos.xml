@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblDesarrollado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desarrollado por:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Alesandrini Ernesto"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Balart Agustin"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnom3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* D'amico Rodrigo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnom4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Famiglietti Cristian"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblnom5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Rey Juan Cruz"
+        android:textSize="30sp" />
+</LinearLayout>
